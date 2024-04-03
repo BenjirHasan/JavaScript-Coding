@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!--TYPE 1-->
+    
+    <script>
+
+        var text = "BANGLADESH";
+        var len = text.length;  //TEXT LENGTH WILL INDICATE
+        document.write("number of character " + len + "<br>"); //PRINT WITH VARIABLE
+        document.write("number of character is " + text.length + "<br>"); //PRINT WITH VALUE
+
+    </script>
+
+    <!--TYPE 2-->
+    <script>
+
+        var text = prompt("Enter your country name : ");  //PRINT FROM USER INPUT
+
+        //document.write("number of character is " + text.length);
+
+    </script>
+
+    <!--TYPE 3-->
+    <script>
+
+        var text = "BANGLADESH";
+        var ind = text.charAt(2);  //print particular character at index
+        document.write("the character of the index is : " + ind + "<br>");
+        document.write("the character of the index is : " + text.charAt(2) + "<br>");
+
+    </script>
+    
+
+    <!--TYPE 4-->
+    <script>
+
+        var text = "bangladesh";
+        text = text.toUpperCase();  //text will print in upper case
+        document.write(text + "<br>");
+        
+        var text = "NEW ISLAND";
+        text = text.toLowerCase(); //text will print in lower case
+        document.write(text + "<br>");
+
+    </script>
+
+    <!-- TYPE 5-->
+    <script>
+
+        var text1 = "BANGLADESH";
+        var text2 = " IS A BEAUTIFUL COUNTRY";
+        var text = text1.concat(text2);  //concatenation
+
+        document.write(text + "<br>"); 
+
+    </script>
+
+    <!--TYPE 6-->
+    <script>
+
+        var text = "BANGLADESH";
+        print = text.slice(0,2);
+
+        document.write(print); 
+
+    </script>
+    
+</body>
+</html>
